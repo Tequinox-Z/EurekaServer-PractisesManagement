@@ -9,10 +9,10 @@ import org.springframework.util.SocketUtils;
 @Configuration
 public class ServerPortsRangeConfig implements WebServerFactoryCustomizer<ConfigurableServletWebServerFactory> {
 
-	@Value("${port.number.min:443}")
+	@Value("${port.number.min:441}")
 	private Integer minPort;
 
-	@Value("${port.number.max:443}")
+	@Value("${port.number.max:445}")
 	private Integer maxPort;
 
 	@Override
