@@ -5,7 +5,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
-@EnableEurekaServer
+
+@EnableEurekaServer						// Esta anotación activa el eureka server
 @SpringBootApplication
 public class EurekaServerApplication extends SpringBootServletInitializer {
 
